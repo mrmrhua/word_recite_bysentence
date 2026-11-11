@@ -1,0 +1,39 @@
+# ===== 个人词库与练习数据（绝不上传）=====
+# 你自己收集的原始词表
+words_edict.csv
+# 本地数据库文件（如果将来落盘）
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== 模板目录 =====
+# 个人词表/生成的产物一律忽略，只保留空模板和欧陆导出样例
+模板/*
+!模板/word_template.xlsx
+!模板/eudic_sample.csv
+
+# ===== 调试与截图产物 =====
+debug_screenshot.png
+.screenshots/
+.trae-html-share-packages/
+
+# ===== 临时上传目录 =====
+.uploads/
+
+# ===== 依赖与缓存 =====
+node_modules/
+__pycache__/
+*.pyc
+
+# ===== Office 临时锁文件 =====
+~$*
+*.tmp
+
+# ===== 系统与编辑器 =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===== 日志 =====
+*.log

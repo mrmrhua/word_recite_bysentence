@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <defs>
+    <style>
+      text { font-family: "SF Pro Display", -apple-system, "Microsoft YaHei", sans-serif; }
+      .title { font-size: 22px; font-weight: 700; fill: #111827; }
+      .subtitle { font-size: 13px; fill: #6b7280; }
+      .axis-label { font-size: 12px; fill: #374151; font-weight: 600; }
+      .axis-tick { font-size: 11px; fill: #6b7280; }
+      .legend-text { font-size: 13px; fill: #374151; }
+      .point-label { font-size: 11px; fill: #374151; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="960" height="640" fill="#ffffff"/>
+  <text x="480.0" y="38" text-anchor="middle" class="title">SM-2 记忆曲线 · 间隔增长可视化</text>
+  <text x="480.0" y="58" text-anchor="middle" class="subtitle">连续答对时复习间隔的指数增长 · 对数坐标 Y 轴（单位：天）</text>
+  <line x1="80" y1="528.6" x2="920" y2="528.6" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="532.6" text-anchor="end" class="axis-tick">1天</text>
+  <line x1="80" y1="478.8" x2="920" y2="478.8" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="482.8" text-anchor="end" class="axis-tick">3天</text>
+  <line x1="80" y1="440.5" x2="920" y2="440.5" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="444.5" text-anchor="end" class="axis-tick">7天</text>
+  <line x1="80" y1="424.3" x2="920" y2="424.3" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="428.3" text-anchor="end" class="axis-tick">10天</text>
+  <line x1="80" y1="392.9" x2="920" y2="392.9" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="396.9" text-anchor="end" class="axis-tick">20天</text>
+  <line x1="80" y1="351.4" x2="920" y2="351.4" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="355.4" text-anchor="end" class="axis-tick">50天</text>
+  <line x1="80" y1="320.0" x2="920" y2="320.0" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="324.0" text-anchor="end" class="axis-tick">100天</text>
+  <line x1="80" y1="288.6" x2="920" y2="288.6" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="292.6" text-anchor="end" class="axis-tick">200天</text>
+  <line x1="80" y1="247.1" x2="920" y2="247.1" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="251.1" text-anchor="end" class="axis-tick">500天</text>
+  <line x1="80" y1="215.7" x2="920" y2="215.7" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="219.7" text-anchor="end" class="axis-tick">1k天</text>
+  <line x1="80" y1="184.3" x2="920" y2="184.3" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="188.3" text-anchor="end" class="axis-tick">2k天</text>
+  <line x1="80" y1="142.8" x2="920" y2="142.8" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="146.8" text-anchor="end" class="axis-tick">5k天</text>
+  <line x1="80" y1="111.4" x2="920" y2="111.4" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="115.4" text-anchor="end" class="axis-tick">10k天</text>
+  <line x1="80" y1="80.0" x2="920" y2="80.0" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="70" y="84.0" text-anchor="end" class="axis-tick">20k天</text>
+  <line x1="122.0" y1="80" x2="122.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="122.0" y="582" text-anchor="middle" class="axis-tick">1</text>
+  <line x1="206.0" y1="80" x2="206.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="206.0" y="582" text-anchor="middle" class="axis-tick">2</text>
+  <line x1="290.0" y1="80" x2="290.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="290.0" y="582" text-anchor="middle" class="axis-tick">3</text>
+  <line x1="374.0" y1="80" x2="374.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="374.0" y="582" text-anchor="middle" class="axis-tick">4</text>
+  <line x1="458.0" y1="80" x2="458.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="458.0" y="582" text-anchor="middle" class="axis-tick">5</text>
+  <line x1="542.0" y1="80" x2="542.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="542.0" y="582" text-anchor="middle" class="axis-tick">6</text>
+  <line x1="626.0" y1="80" x2="626.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="626.0" y="582" text-anchor="middle" class="axis-tick">7</text>
+  <line x1="710.0" y1="80" x2="710.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="710.0" y="582" text-anchor="middle" class="axis-tick">8</text>
+  <line x1="794.0" y1="80" x2="794.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="794.0" y="582" text-anchor="middle" class="axis-tick">9</text>
+  <line x1="878.0" y1="80" x2="878.0" y2="560" stroke="#f3f4f6" stroke-width="1"/>
+  <text x="878.0" y="582" text-anchor="middle" class="axis-tick">10</text>
+  <line x1="80" y1="80" x2="80" y2="560" stroke="#d1d5db" stroke-width="1.5"/>
+  <line x1="80" y1="560" x2="920" y2="560" stroke="#d1d5db" stroke-width="1.5"/>
+  <text x="25" y="320.0" text-anchor="middle" class="axis-label" transform="rotate(-90 25 320.0)">复习间隔（天，对数）</text>
+  <text x="500.0" y="610" text-anchor="middle" class="axis-label">连续答对次数</text>
+  <path d="M 122.0 528.6 L 206.0 478.8 L 290.0 440.5 L 374.0 392.9 L 458.0 344.7 L 542.0 294.9 L 626.0 243.7 L 710.0 191.0 L 794.0 136.9 L 878.0 81.5" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="122.0" cy="528.6" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="206.0" cy="478.8" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="290.0" cy="440.5" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="374.0" cy="392.9" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="458.0" cy="344.7" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="542.0" cy="294.9" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="626.0" cy="243.7" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="710.0" cy="191.0" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="794.0" cy="136.9" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="878.0" cy="81.5" r="4.5" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <path d="M 122.0 528.6 L 206.0 478.8 L 290.0 440.5 L 374.0 386.6 L 458.0 331.3 L 542.0 274.5 L 626.0 216.5 L 710.0 157.2 L 794.0 96.7 L 878.0 35.1" fill="none" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="6,3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="122.0" cy="528.6" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="206.0" cy="478.8" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="290.0" cy="440.5" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="374.0" cy="386.6" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="458.0" cy="331.3" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="542.0" cy="274.5" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="626.0" cy="216.5" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="710.0" cy="157.2" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="794.0" cy="96.7" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="878.0" cy="35.1" r="4.5" fill="#16a34a" stroke="#ffffff" stroke-width="2"/>
+  <path d="M 122.0 528.6 L 206.0 478.8 L 290.0 440.5 L 374.0 403.0 L 458.0 363.8 L 542.0 322.3 L 626.0 279.0 L 710.0 234.0 L 794.0 187.4 L 878.0 139.2" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="3,3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="122.0" cy="528.6" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="206.0" cy="478.8" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="290.0" cy="440.5" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="374.0" cy="403.0" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="458.0" cy="363.8" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="542.0" cy="322.3" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="626.0" cy="279.0" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="710.0" cy="234.0" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="794.0" cy="187.4" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="878.0" cy="139.2" r="4.5" fill="#dc2626" stroke="#ffffff" stroke-width="2"/>
+  <path d="M 122.0 528.6 L 206.0 478.8 L 290.0 440.5 L 374.0 392.9 L 458.0 344.7 L 500.0 528.6 L 542.0 528.6 L 626.0 478.8 L 710.0 440.5 L 794.0 386.6 L 878.0 331.3" fill="none" stroke="#9333ea" stroke-width="2.5" stroke-dasharray="2,2" stroke-linecap="round"/>
+  <circle cx="500.0" cy="528.6" r="8" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="514.0" y="518.6" class="point-label" fill="#dc2626" font-weight="600">答错→重置为1天</text>
+  <rect x="710" y="80" width="220" height="145" rx="8" fill="#f9fafb" stroke="#e5e7eb"/>
+  <line x1="720" y1="104" x2="750" y2="104" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="760" y="108" class="legend-text">默认 (ef=2.5,每次+0.1)</text>
+  <line x1="720" y1="136" x2="750" y2="136" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="760" y="140" class="legend-text">简单词 (ef=3.0)</text>
+  <line x1="720" y1="168" x2="750" y2="168" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="3,3"/>
+  <text x="760" y="172" class="legend-text">难词 (ef=2.0)</text>
+  <line x1="720" y1="200" x2="750" y2="200" stroke="#9333ea" stroke-width="2.5" stroke-dasharray="2,2"/>
+  <text x="760" y="204" class="legend-text">第5步答错后重置</text>
+  <text x="80" y="618" class="subtitle">SM-2 三阶段递增：rep=0→1天 | rep=1→3天 | rep=2→7天 | rep≥3→interval × ef</text>
+  <text x="80" y="636" class="subtitle">答错/模糊 → repetition 清零 + interval 重置为 1 天 + ef 不惩罚</text>
+  <text x="80" y="654" class="subtitle">斩（降级）→ 跳过记忆曲线，直接设为 180 天后再复习</text>
+</svg>
